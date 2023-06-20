@@ -1,0 +1,29 @@
+
+body {
+
+    background-color: rgb(251, 254, 250);
+}
+.mycss{
+    text-align: center;
+    color: darkred;
+
+    
+}
+input[type=submit]{
+    padding: 12px 92px;
+    border: curve;
+    color:azure;
+    background-color: darkgreen;
+    text-decoration: italic;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    color: darkslategray;
+}
+input[type=text]{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
