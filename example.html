@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Style for the container */
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Style for the image */
+    .image-container img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Style for the text overlay */
+    .image-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-container">
+    <img src="./slider/img-1.jpeg" alt="Your Image">
+    <div class="image-text">Your Text Here</div>
+  </div>
+
+</body>
+</html>
