@@ -1,6 +1,3 @@
-var name = "pragathis";
-if(name === "pragathis"){
-    console.log(name + "the value is true");
-}else {
-    console.log(name + "the value is false");
-}
+var name  = 100;
+var x = `${name * 1}%`;
+console.log(typeof(x));
