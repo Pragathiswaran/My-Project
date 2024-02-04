@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+.container{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    margin-top: 20rem;
+}
+
