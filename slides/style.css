@@ -8,7 +8,7 @@ body{
     margin-top: 5rem;
     display: grid;
     place-items: center;
-    border: 5px solid skyblue;
+    border: 5px solid rgb(21, 117, 155);
     height: 40vh;
     width: 80vh;
     overflow: hidden;
