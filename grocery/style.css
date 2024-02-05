@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+
+.container{
+    border: 2px solid black;
+    position: relative;
+    width: 280px;
+    height: 200px;
+    margin: 20vh auto 0;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
