@@ -1,16 +1,33 @@
 body{
-    margin: 0;
+    margin: 0%;
 }
 
 .container{
+    /* position: relative; */
     border: 2px solid black;
-    position: relative;
-    width: 280px;
-    height: 200px;
-    margin: 20vh auto 0;
+    width: 20rem;
+    padding: 20px;
+    margin: 30vh auto 0 auto;
+    display:flex ;
+   justify-content: center;
+}
+h1{
     text-align: center;
 }
+.form-grocery{
+    /* position: absolute; */
+    /* display: grid;
+    place-items: center; */
+    margin-bottom: 10rem;
+}
 
-li{
-    list-style-type: none;
+.list-container{
+    margin: 20vh auto 0;
+    /* position: absolute; */
+}
+
+.btn-clearcontainer{
+    position: relative;
+    top: 50%;
+
 }
